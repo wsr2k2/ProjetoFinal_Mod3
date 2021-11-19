@@ -27,6 +27,9 @@ app.use('/mexican', MexicanRouter);
 const HolandesaRouter = require("./routers/holanda.routes");
 app.use("/holanda",  HolandesaRouter);
 
+const EgitoRouter = require("./routers/egito.routes");
+app.use("/egito",  EgitoRouter);
+
 app.listen(process.env.PORT, () => {
     console.log(`Servidor rodando em: http://localhost:${process.env.PORT}`);
 });
