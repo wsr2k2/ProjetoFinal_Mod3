@@ -6,11 +6,11 @@ router.get('/', (req,res) => {
     res.status(200).json({message:"rota comidas holandesas"});
 });
 
-router.get("/readAll", HolandaController.getAll);
+router.get("/listAll", HolandaController.getAll);
 
-router.get("/readSingle/:id", HolandaController.getSingle);
+router.get("/listId/:id", HolandaController.getSingle);
 
-router.post("/create", HolandaController.postCreate);
+router.post("/add", HolandaController.postCreate);
 
 router.put("/update/:id", HolandaController.putUpdate);
 
