@@ -1,5 +1,5 @@
 {
-  "name": "ProjetoFinal_Mod3",
+
   "version": "1.0.0",
   "description": "Projeto Final backend módulo 3",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/wsr2k2/ProjetoFinal_Mod3.git"
   },
-  "keywords": [],
+
   "author": "",
   "license": "ISC",
   "bugs": {
