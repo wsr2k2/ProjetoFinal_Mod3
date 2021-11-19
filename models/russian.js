@@ -13,4 +13,3 @@ const Russian = mongoose.model('russians', russiansModel);
 
 module.exports = Russian;
 
-jkhkljhlk
