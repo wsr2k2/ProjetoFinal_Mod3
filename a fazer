@@ -1,0 +1,37 @@
+O projeto final tem seu tema livre e deve ser feito em dupla.
+
+Maria Clara = EGITO e HOLANDA
+
+
+Estrutura:
+Possuir 5 rotas distintas dentro do tema escolhido - 2
+     Cada rota deve possuir as subrotas do CRUD no seguinte padrao:
+        /add - adicionar
+        /update - atualizar
+        /listall - listar tudo
+        /listid - listar o id expecifico
+        /delete - apagar
+
+      Seguir o padrao de pastas MVC - 0,5
+Model
+Controller
+Routers
+    Utilizar o moongose para gerenciar o banco de dados no mongodb na nuvem (Mongo Atlas) -  1
+    Rotas criadas no arquivo routers - 0,5
+    Controle da funcionalidade de cada rota no arquivo de controller - 0,5 
+    Validar todas as entradas de dados da API - 0,5
+    Não esquecer do .env e do .gitignore
+
+Github:
+    Readme bem escrito contendo todas as rotas e exemplos de como se usar - 2
+    licença GNU General Public License v3.0 configurada no repositório - 0,5
+
+Heroku:
+    Deploy da aplicação - 1
+    configuração das var de ambiente - 0,5
+    Integração Back / Front - 1
+
+Entrega:
+    ambos da dupla devem fazer a entrega e apontar no comentario qual o nome de sua dupla
+    enviar link do repositorio github, link do heroku e collection do thunder
+    Video de apresentaçao do projeto com WEBCAM, grave sua tela e sua webcam e demonstre seu projeto em plena funcionalidade, tamanho max do video 3 minutos.
