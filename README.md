@@ -2,7 +2,7 @@
 
  Projeto Final backend módulo 3 Blue Edtech.
 
- link do heroku: <a href=""> API Sabores do mundo</a>
+ link do heroku: <a href="https://api-sabores-do-mundo.herokuapp.com/"> API Sabores do mundo</a>
 
 ------
 
@@ -33,12 +33,12 @@ Criado o pacote Environment para exportação/importação e também disponibili
 
 Para acessar cada rota específica de país, basta inserir o endereço desejado dentre as opções:
 
-- Rota principal da API Sabores do Mundo > <http://localhost:3000>
-- Itália > <http://localhost:3000/italian>
-- México > <http://localhost:3000/mexican>
-- Rússia > <http://localhost:3000/russian>
-- Holanda > <http://localhost:3000/>
-- Egito > <http://localhost:3000/>
+- Rota principal da API Sabores do Mundo > <https://api-sabores-do-mundo.herokuapp.com>
+- Itália > <https://api-sabores-do-mundo.herokuapp.com/italian>
+- México > <https://api-sabores-do-mundo.herokuapp.com/mexican>
+- Rússia > <https://api-sabores-do-mundo.herokuapp.com/russian>
+- Holanda > <https://api-sabores-do-mundo.herokuapp.com/holanda>
+- Egito > <https://api-sabores-do-mundo.herokuapp.com/egito>
 
 Após selecionar o país desejado, o usuário terá como opções: Listar todos os pratos cadastrados, listar um prato cadastrado por ID, cadastrar um novo prato, alterar um prato já cadastrado por ID, deletar um prato já cadastrado por ID. Para facilitar foi criado as collections com todas as rotas previamente definidas juntamente com o arquivo Environment.
 
@@ -49,16 +49,49 @@ Após selecionar o país desejado, o usuário terá como opções: Listar todos 
 `GET /` (página inicial da API);
 
 ```javascript
-https://...herokuapp.com/
+https://api-sabores-do-mundo.herokuapp.com
 {
   "message": "Bem vindo a API Sabores do Mundo!"
 }
 ```
 
-| Tipo de requisição: | País escolhido: |               Link da rota:               |                 Mensagem de retorno:                  |
-| :-----------------: | :-------------: | :---------------------------------------: | :---------------------------------------------------: |
-|        GET /        |     itlian      | <a> <https://...herokuapp.com/italian> </a> |    "message": "Bem vindo à Itália, buon appetito!"    |
-|        GET /        |     mexican     | <a> <https://...herokuapp.com/mexican> </a> |   "message": "Bem vindo ao México, buen provecho!"    |
-|        GET /        |     russian     | <a> <https://...herokuapp.com/russian> </a> | "message": "Bem vindo à Rússia, naslazhdaysya yedoy!" |
-|        GET /        |     holand      | <a> <https://...herokuapp.com/holand> </a>  | "message": "Bem vindo à Holanda, geniet van je eten!" |
-|        GET /        |      egypt      |  <a> <https://...herokuapp.com/egypt> </a>  |    "message": "Bem vindo ao Egito, afiyet olsun!"     |
+#### Rota / principal dos países:
+
+| Tipo de requisição: | País escolhido: |                        Link da rota:                         |       Mensagem de retorno:        |
+| :-----------------: | :-------------: | :----------------------------------------------------------: | :-------------------------------: |
+|        GET /        |     México      | <a> <https://api-sabores-do-mundo.herokuapp.com/mexican> </a> | "message": "Bem vindo ao México!" |
+
+#### Rota /Add (criar um novo prato):
+
+| Tipo de requisição: | País escolhido: |                        Link da rota:                         |   Mensagem de retorno:    |
+| :-----------------: | :-------------: | :----------------------------------------------------------: | :-----------------------: |
+|       POST /        |     México      | <a> <https://api-sabores-do-mundo.herokuapp.com/mexican/add></a> | Prato criado com sucesso! |
+
+#### Rota /listAll (listar todos os pratos cadastrados):
+
+| Tipo de requisição: | País escolhido: |                        Link da rota:                         |    Mensagem de retorno:    |
+| :-----------------: | :-------------: | :----------------------------------------------------------: | :------------------------: |
+|        GET /        |     México      | <a> <https://api-sabores-do-mundo.herokuapp.com/mexican/listAll></a> | Retorna a lista dos pratos |
+
+#### Rota /listId (listar um prato pelo ID):
+
+| Tipo de requisição: | País escolhido: |                        Link da rota:                         |  Mensagem de retorno:   |
+| :-----------------: | :-------------: | :----------------------------------------------------------: | :---------------------: |
+|      GET / ID       |     México      | <a> <https://api-sabores-do-mundo.herokuapp.com/mexican/listId></a> | Retorna o prato pelo Id |
+
+#### Rota /update (altera um prato pelo ID):
+
+| Tipo de requisição: | País escolhido: |                        Link da rota:                         |  Mensagem de retorno:  |
+| :-----------------: | :-------------: | :----------------------------------------------------------: | :--------------------: |
+|      PUT / ID       |     México      | <a> <https://api-sabores-do-mundo.herokuapp.com/mexican/update/id></a> | Altera o prato pelo Id |
+
+#### Rota /delete (deleta um prato pelo ID):
+
+| Tipo de requisição: | País escolhido: |                        Link da rota:                         |  Mensagem de retorno:   |
+| :-----------------: | :-------------: | :----------------------------------------------------------: | :---------------------: |
+|     DELETE / ID     |     México      | <a> <https://api-sabores-do-mundo.herokuapp.com/mexican/delete/id></a> | Deleta um prato pelo Id |
+
+* Todas as rotas descritas acima também se aplicam aos outros países: Holanda, Egito, Rússia e Itália.
+
+
+
