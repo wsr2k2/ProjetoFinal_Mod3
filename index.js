@@ -12,7 +12,7 @@ app.use(cors());
 app.options("*", cors());
 
 app.get('/', (req, res) => {
-    res.status(200).json({message: "API OK"});
+    res.status(200).json({message: "Bem vindo a API Sabores do Mundo!"});
 });
 
 const ItalianRouter = require('./routers/italian.routes');
