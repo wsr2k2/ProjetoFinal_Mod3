@@ -91,7 +91,7 @@ https://api-sabores-do-mundo.herokuapp.com
 | :-----------------: | :-------------: | :----------------------------------------------------------: | :---------------------: |
 |     DELETE / ID     |     México      | <a> <https://api-sabores-do-mundo.herokuapp.com/mexican/delete/id></a> | Deleta um prato pelo Id |
 
-* Todas as rotas descritas acima também se aplicam aos outros países: Holanda, Egito, Rússia e Itália.
+* O mesmo se aplica aos outros países: Holanda, Egito, Rússia e Itália.
 
 
 
