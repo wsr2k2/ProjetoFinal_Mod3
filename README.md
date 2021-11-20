@@ -77,7 +77,7 @@ https://api-sabores-do-mundo.herokuapp.com
 
 | Tipo de requisição: | País escolhido: |                        Link da rota:                         |  Mensagem de retorno:   |
 | :-----------------: | :-------------: | :----------------------------------------------------------: | :---------------------: |
-|      GET / ID       |     México      | <a> <https://api-sabores-do-mundo.herokuapp.com/mexican/listId></a> | Retorna o prato pelo Id |
+|      GET / ID       |     México      | <a> <https://api-sabores-do-mundo.herokuapp.com/mexican/listId/id></a> | Retorna o prato pelo Id |
 
 #### Rota /update (altera um prato pelo ID):
 
@@ -91,7 +91,7 @@ https://api-sabores-do-mundo.herokuapp.com
 | :-----------------: | :-------------: | :----------------------------------------------------------: | :---------------------: |
 |     DELETE / ID     |     México      | <a> <https://api-sabores-do-mundo.herokuapp.com/mexican/delete/id></a> | Deleta um prato pelo Id |
 
-* Todas as rotas descritas acima também se aplicam aos outros países: Holanda, Egito, Rússia e Itália.
+* O mesmo se aplica aos outros países: Holanda, Egito, Rússia e Itália.
 
 
 
