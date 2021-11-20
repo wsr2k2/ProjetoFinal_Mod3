@@ -77,7 +77,7 @@ https://api-sabores-do-mundo.herokuapp.com
 
 | Tipo de requisição: | País escolhido: |                        Link da rota:                         |  Mensagem de retorno:   |
 | :-----------------: | :-------------: | :----------------------------------------------------------: | :---------------------: |
-|      GET / ID       |     México      | <a> <https://api-sabores-do-mundo.herokuapp.com/mexican/listId></a> | Retorna o prato pelo Id |
+|      GET / ID       |     México      | <a> <https://api-sabores-do-mundo.herokuapp.com/mexican/listId/id></a> | Retorna o prato pelo Id |
 
 #### Rota /update (altera um prato pelo ID):
 
