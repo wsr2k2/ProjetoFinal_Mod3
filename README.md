@@ -2,7 +2,7 @@
 
  Projeto Final backend módulo 3 Blue Edtech.
 
- link do heroku: <a href="https://api-sabores-do-mundo.herokuapp.com/"> API Sabores do mundo</a>
+ link do heroku: <a href="https://api-sabores-do-mundo-frontend.herokuapp.com/"> API Sabores do mundo</a>
 
 ------
 
